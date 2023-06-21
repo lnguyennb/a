@@ -3,37 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/LoginServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/ManagerNewServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/SearchPersonServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/dal/DBContext.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/LoadProfileServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/DetailServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/dal/AccountDAO.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/AddPersonServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/LogoutServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/ViewProfileServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/model/Person.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/GetCategoryServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/model/Account.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/ManagerWriterServlet.java</file>
             <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/dal/PersonDAO.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/ViewWriterNewsServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/HomeServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/LoadNewServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/SearchNewServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/dal/NewDAO.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/CreateAccountServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/SearchServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/dal/CategoryDAO.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/web/add_new.jsp</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/model/Category.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/dal/MyDAO.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/DeleteNewServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/EditNewServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/UpdateProfileServlet.java</file>
-            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/AddNewServlet.java</file>
+            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/web/update_profile.jsp</file>
+            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/model/Person.java</file>
+            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/web/manager_new.jsp</file>
+            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/model/Account.java</file>
+            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/web/home.jsp</file>
             <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/model/New.java</file>
+            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/web/detail.jsp</file>
+            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/model/Category.java</file>
+            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/dal/AccountDAO.java</file>
+            <file>file:/Users/lgn/BIG%20DOCS/UNI/semesters/2023/summer_23/PRJ301/projects/PRJ301-Assignment/src/java/controller/ManagerWriterServlet.java</file>
         </group>
     </open-files>
 </project-private>

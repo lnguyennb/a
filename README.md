@@ -11,6 +11,9 @@
     <div class="info">
       <span>Java:</span> 17
     </div>
+   	<div class="info">
+      <span>IDE:</span> Netbeans 18
+    </div>
     <div class="info">
       <span>Server:</span> Apache Tomcat 10
     </div>
