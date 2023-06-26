@@ -10,7 +10,6 @@ import java.util.Date;
  *
  * @author lgn
  */
-
 public class New {
 
     private int id;

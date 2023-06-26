@@ -7,7 +7,7 @@
 
 <html>
     <head>
-        <title>World_News</title>
+        <title>urNewspaper</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +28,7 @@
                             <div class="col-sm-12 menu_box">
                                 <div class="col-sm-3">
                                     <div class="menu_box_1">
-                                        <h1><a href="home">urNewspaper!</a></h1>
+                                        <h1><a href="home">urNewspaper</a></h1>
                                     </div>
                                     <p style="color: yellow">${mess}</p>
                                 </div>
@@ -95,7 +95,6 @@
                         </ul>
                     </div>
                 </div>
-
             </nav>
         </section>
 
@@ -180,8 +179,6 @@
                 </div>
             </div>
         </section>
-
-
 
         <!-- //for header -->	
         <script src="js/classie.js"></script>

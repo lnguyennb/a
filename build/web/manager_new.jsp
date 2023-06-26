@@ -37,8 +37,9 @@
                                 </form>                             
                             </div>
                         </div>
-
                     </div>
+                    <br>
+                    <a href="home"><button type="button" class="btn btn-primary">Back to home</button>
                 </div>
                 <table class="table table-striped table-hover">
                     <thead>

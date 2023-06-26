@@ -81,7 +81,7 @@ public class NewDAO extends MyDAO {
 
     public List<New> getNewByCID(int cid) {
         List<New> list = new ArrayList<>();
-        xSql = "select * from new where cateID = ?";
+        xSql = "select * from new where cateID = ? order by id DESC";
         try {
             String xName, xImage, xContent;
             String xTitle;
