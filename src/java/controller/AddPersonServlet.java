@@ -9,7 +9,6 @@ import dal.PersonDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
 import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -19,7 +18,6 @@ import java.sql.Date;
  *
  * @author lgn
  */
-@WebServlet(name = "AddPersonServlet", urlPatterns = {"/addperson"})
 public class AddPersonServlet extends HttpServlet {
 
     /**

@@ -5,9 +5,10 @@
 package dal;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import model.New;
+import java.sql.Date;
+
 
 /**
  *
@@ -190,16 +191,17 @@ public class NewDAO extends MyDAO {
         return (list);
     }
 
-    public void add(String name, String image, String title, String content, int cateID, int writerID) {
-        xSql = "insert into New (name,image,title, content,date, cateID, writerID) values (?,?,?,?,'2022-04-17',?,?)";
+    public void add(String name, String image, String title, String content, String date, int cateID, int writerID) {
+        xSql = "insert into New (name,image,title, content,date, cateID, writerID) values (?,?,?,?,?,?,?)";
         try {
             ps = con.prepareStatement(xSql);
             ps.setString(1, name);
             ps.setString(2, image);
             ps.setString(3, title);
             ps.setString(4, content);
-            ps.setInt(5, cateID);
-            ps.setInt(6, writerID);
+            ps.setString(5, date);
+            ps.setInt(6, cateID);
+            ps.setInt(7, writerID);
             ps.executeUpdate();
             ps.close();
         } catch (Exception e) {

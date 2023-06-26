@@ -36,7 +36,7 @@
     </head>
     <body>
         <div class="login-form">
-            <form action="login" method="get">
+            <form action="login" method="post">
                 <h2 class="text-center">Log in</h2>
                 <p class = "text-danger">${mess}</p>
 

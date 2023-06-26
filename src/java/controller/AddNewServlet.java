@@ -8,18 +8,19 @@ import dal.NewDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
 import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import java.util.Date;
+import java.text.SimpleDateFormat;
 import model.Account;
+import java.util.Calendar;
 
 /**
  *
  * @author lgn
  */
-@WebServlet(name = "AddNewServlet", urlPatterns = {"/addnew"})
 public class AddNewServlet extends HttpServlet {
 
     /**
@@ -74,8 +75,13 @@ public class AddNewServlet extends HttpServlet {
         Account a = (Account) session.getAttribute("acc");
         int writerID = a.getId();
 
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+        Calendar calendar = Calendar.getInstance();
+        Date date = calendar.getTime();
+        String formattedDate = formatter.format(date);
+
         NewDAO nd = new NewDAO();
-        nd.add(name, image, title, content, category, writerID);
+        nd.add(name, image, title, content, formattedDate, category, writerID);
 
         String mess = "Posted successfully!";
         request.setAttribute("mess", mess);

@@ -43,7 +43,7 @@
                                 <div class="col-sm-3">
                                     <div class="menu_box_3 text-right">
                                         <c:if test="${sessionScope.acc == null}">
-                                            <span class="tag_1"><a href="login.jsp">Log in</a></span>
+                                            <span class="tag_1"><a href="login">Log in</a></span>
                                         </c:if>
 
                                         <c:if test="${sessionScope.acc != null}">

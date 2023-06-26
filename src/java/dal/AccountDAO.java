@@ -88,7 +88,7 @@ public class AccountDAO extends MyDAO {
     }
 
     public void add(String user, String pass) {
-        xSql = "INSERT INTO WorldNews.Account (`user`, pass, isWriter, isAdmin) VALUES(?, ?, 0, 0);";
+        xSql = "INSERT INTO WorldNews.Account (`user`, pass, isWriter, isAdmin) VALUES(?, ?, 1, 0);";
         try {
             ps = con.prepareStatement(xSql);
             ps.setString(1, user);

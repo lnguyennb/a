@@ -68,6 +68,7 @@
                             <div class="row">
                                 <aside class="col-sm-5 border-right">
                                     <article class="gallery-wrap"> 
+                                        <h4 class="title mb-3"><%= n.getDatePublic() %></h4>
                                         <div class="img-big-wrap">
                                             <div> <a href="#"><img src="<%= n.getImage() %>"></a></div>
                                         </div> <!-- slider-product.// -->
