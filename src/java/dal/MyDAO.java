@@ -17,4 +17,3 @@ public class MyDAO extends DBContext {
     protected ResultSet rs = null;
     protected String xSql = null;
 }
-
