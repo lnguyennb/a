@@ -133,7 +133,7 @@ public class NewDAO extends MyDAO {
         }
         return x;
     }
-
+    
     public List<New> getNewByWriterID(int id) {
         List<New> list = new ArrayList<>();
         xSql = "select * from new where writerID = ?";
