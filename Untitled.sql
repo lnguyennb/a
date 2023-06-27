@@ -32,7 +32,7 @@ CREATE TABLE `Account` (
   `isAdmin` int DEFAULT NULL,
   PRIMARY KEY (`person_id`),
   CONSTRAINT `fk_account_profile` FOREIGN KEY (`person_id`) REFERENCES `person` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -41,7 +41,7 @@ CREATE TABLE `Account` (
 
 LOCK TABLES `Account` WRITE;
 /*!40000 ALTER TABLE `Account` DISABLE KEYS */;
-INSERT INTO `Account` VALUES (1,'admin','12345',1,1),(2,'writer2','12345',1,0),(3,'writer3','12345',1,0),(4,'writer4','12345',1,0);
+INSERT INTO `Account` VALUES (1,'admin','12345',1,1),(2,'writer2','12345',1,0),(3,'writer3','12345',1,0),(4,'writer4','12345',1,0),(5,'nguyenlg','12345',1,0);
 /*!40000 ALTER TABLE `Account` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -116,7 +116,7 @@ CREATE TABLE `Person` (
   `dob` date DEFAULT NULL,
   `address` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -125,7 +125,7 @@ CREATE TABLE `Person` (
 
 LOCK TABLES `Person` WRITE;
 /*!40000 ALTER TABLE `Person` DISABLE KEYS */;
-INSERT INTO `Person` VALUES (1,'Le Gia Nguyen','2003-03-15','Viet Nam'),(2,'Kylian Mbape','2001-10-15','France'),(3,'Lionel Messi','1987-06-24','Argentina'),(4,'Cristiano Ronaldo','1976-09-18','Portugal');
+INSERT INTO `Person` VALUES (1,'Le Gia Nguyen','2003-03-15','Viet Nam'),(2,'Kylian Mbape','2001-10-15','France'),(3,'Lionel Messi','1987-06-24','Argentina'),(4,'Cristiano Ronaldo','1976-09-18','Portugal'),(5,'Nguyen 2','2023-06-13','FPT');
 /*!40000 ALTER TABLE `Person` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -146,4 +146,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-26 14:21:38
+-- Dump completed on 2023-06-27 16:04:32

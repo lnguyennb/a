@@ -37,7 +37,7 @@ public class AddPersonServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet NewServlet</title>");            
+            out.println("<title>Servlet NewServlet</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet NewServlet at " + request.getContextPath() + "</h1>");
@@ -70,10 +70,11 @@ public class AddPersonServlet extends HttpServlet {
 
         request.setAttribute("user", user);
         request.setAttribute("pass", pass);
-        AccountDAO ad = new AccountDAO();
-        ad.add(user, pass);
+
         PersonDAO pd = new PersonDAO();
         pd.add(name, dob, address);
+        AccountDAO ad = new AccountDAO();
+        ad.add(user, pass);
 
         request.getRequestDispatcher("managerwriter").forward(request, response);
     }

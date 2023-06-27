@@ -46,7 +46,7 @@
 
                             <div class="form-group">
                                 <label>Password</label>
-                                <input  name="pass" type="text" class="form-control" required>
+                                <input  name="pass" type="password" class="form-control" required>
                             </div>
                         </div>
 
